@@ -16,16 +16,17 @@ If this project helps you build better AI systems and you'd like to show your ap
 - **Agentic Boomerang**: Reliable task delegation and tracking system
 - **Structured Documentation**: Consistent, traceable documentation
 - **Token Optimization**: Efficient resource usage through the "Scalpel, not Hammer" approach
+- **Task Maps**: JSON blueprints that break down projects into phases/tasks with dependencies and validation
 
 ## 🧩 Specialized Modes
 
 The system includes the following specialized modes:
 
-- **🪃 Orchestrator**: Task decomposition, assignment, and verification
+- **🪃 Orchestrator**: Task decomposition, assignment, and verification using JSON Task Maps
 - **💻 Code**: Software implementation and optimization
 - **🏛️ Architect**: System design and pattern application
 - **❓ Ask**: Information retrieval, evaluation, and communication
-- **🪲 Debug**: Problem diagnosis and solution validation
+- **🪲 Debug**: Problem diagnosis and极 validation
 - **💾 Memory**: Knowledge storage, organization, and retrieval
 - **🔍 Deep Research**: In-depth investigation and analysis
 
@@ -67,13 +68,6 @@ Below is an architectural overview of how the Roo framework operates:
                 ▼
 ┌─────────────────────────────────┐
 │        Query Processing         │
-└───────────────┬─────────────────┘
-                │
-                ▼
-┌─────────────────────────────────┐
-│         MCP → Reprompt          │
-│     (Only called on direct      │
-│         user input)             │
 └───────────────┬─────────────────┘
                 │
                 ▼
@@ -187,7 +181,7 @@ Below is an architectural overview of how the Roo framework operates:
 └────────────────┼───────────────────────────────────────────────┘
                  │
                  └───────────────────────────────────┐
-                                                     ▼
+                                                      ▼
 ┌─────────────────────────────────┐      ┌─────────────────────────┐
 │           Orchestrator          │      │         User            │
 │     (System Prompt contains:    │      │     (Customer with      │
@@ -205,14 +199,12 @@ Below is an architectural overview of how the Roo framework operates:
 - A compatible AI assistant that supports custom modes
 - Basic understanding of the SPARC framework concepts
 
+> **Documentation**:  
+> - [Custom Instructions](https://docs.roocode.com/features/custom-instructions)  
+> - [Custom Modes](https://docs.roocode.com/features/custom-modes)  
+> - [Enhance Prompt](https://docs.roocode.com/features/enhance-prompt)  
+
 ### Installation
-
-#### Option 1: NPM (Coming Soon)
-
-```
-
-```
-=======
 
 #### Option 2: Manual Setup
 
@@ -221,56 +213,47 @@ Below is an architectural overview of how the Roo framework operates:
    git clone https://github.com/Mnehmos/The-Ultimate-Roo-Code-Hack-Building-a-Structured-Transparent-and-Well-Documented-AI-Team.git
    ```
 
-2. Copy the `.roomodes` file to your project root
+2. Copy the template files:
+   ```bash
+   cp templates/custom_modes.yaml ./
+   cp templates/custom-instructions-for-all-modes.md ./
+   cp templates/enhance-prompt-template.md ./
+   ```
 
-3. Configure your AI assistant to use the custom modes:
+3. Configure your AI assistant:
    - Click the "Modes" button in the Roo sidebar
-   - Select "Edit Project Modes (.roomodes)"
-   - Verify that the content matches the `.roomodes` file from this repository
+   - Select "Edit Project Modes (custom_modes.yaml)"
+   - Verify the content matches your project needs
    - Click "Save"
 
 4. Set up the custom instructions:
-   - Click the "Modes" button in the Roo sidebar
-   - Scroll down to "Custom Instructions for All Modes"
-   - Copy the contents of `templates/custom-instructions-for-all-modes.md`
+   - Click the "Modes" button
+   - Scroll to "Custom Instructions for All Modes"
+   - Copy the contents of `custom-instructions-for-all-modes.md`
    - Paste into the Custom Instructions field
    - Click "Save"
 
-5. Create the `.roo` directory structure:
-   - Create a `.roo` directory in your project root
-   - Add subdirectories for each mode: `rules-orchestrator`, `rules-code`, etc.
-   - Create a `logs` directory for activity tracking
-   - Add a `memory` directory for knowledge storage
+5. Configure the Enhance Prompt feature:
+   - Click the "Support Prompts" button
+   - Select "Enhance Prompt"
+   - Copy the contents of `enhance-prompt-template.md`
+   - Paste into the Prompt field
+   - Click "Save"
+   > Learn more: [Enhance Prompt Documentation](https://docs.roocode.com/features/enhance-prompt)
 
-6. Initialize the boomerang state:
-   - Create a `.roo/boomerang-state.json` file with an empty JSON object: `{}`
+6. Create the project structure:
+   ```bash
+   mkdir .roo
+   echo "{}" > .roo/boomerang-state.json
+   mkdir -p .roo/logs .roo/memory
+   ```
 
-#### Option 3: Direct Setup with AI Assistant
-
-If you prefer to set up the framework directly using an AI assistant like Roo, Claude, or ChatGPT, you can copy and paste the following prompt:
+#### Option 1: NPM (Coming Soon)
 
 ```
-I want to set up the Ultimate Roo Code Hack multi-agent framework. Please help me:
 
-1. Create a .roomodes file with configurations for these specialized modes:
-   - Orchestrator (task management and delegation)
-   - Code (software implementation)
-   - Architect (system design)
-   - Ask (information discovery)
-   - Debug (problem diagnosis)
-   - Memory (knowledge management)
-   - Deep Research (in-depth investigation)
-
-2. Create a meet-the-team.md file that describes each mode as a team member in plain English
-
-3. Set up custom instructions that implement:
-   - The SPARC framework for structured reasoning
-   - Boomerang logic for task delegation
-   - Token optimization strategies
-   - Standardized documentation formats
-
-Please provide the complete content for each file and instructions on how to use them.
 ```
+
 
 ### Additional Configuration
 
@@ -280,15 +263,15 @@ Please provide the complete content for each file and instructions on how to use
 3. Copy the contents of `templates/enhance-prompt-template.md`
 4. Paste into the Prompt field
 5. Click "Save"
-
-This feature helps transform basic prompts into comprehensive, structured project prompts.
+> Learn more: [Enhance Prompt Documentation](https://docs.roocode.com/features/enhance-prompt)
 
 ## 🧩 Basic Usage
 
 1. **Start with Orchestrator Mode** - This is your project manager who will coordinate everything
 2. **Describe your project** - Be as detailed as possible in your initial prompt
-3. **Let Orchestrator break it down** - It will create subtasks and delegate to specialist modes
-4. **Review the results** - Orchestrator will integrate all the pieces and present the final result
+3. **Generate Task Map** - Use the Enhance Prompt feature to create a JSON Task Map
+4. **Let Orchestrator execute** - It will delegate tasks to specialist modes based on the Task Map
+5. **Review results** - Orchestrator integrates all pieces and presents the final output
 
 ## 🧩 Using the Modes
 
@@ -296,10 +279,43 @@ This feature helps transform basic prompts into comprehensive, structured projec
 1. Click on the current mode name in the bottom left corner of the Roo interface
 2. Select the desired mode from the dropdown menu
 
-### Using the Enhance Prompt Feature
-1. Type your basic prompt in the chat
+### Using the Enhance Prompt Feature (Task Map Generator)
+1. Type your basic project description in the chat
 2. Click the ✨ button next to the send button
-3. Roo will transform your basic prompt into a comprehensive, structured project prompt
+3. Roo will transform your input into a comprehensive JSON Task Map
+4. Review and edit the Task Map if needed
+5. Orchestrator will use the Task Map to coordinate the project
+
+### Task Map Example
+```json
+{
+  "project": "SaaS Dashboard",
+  "Phase_1_Foundation": {
+    "1.1_setup": {
+      "agent": "Orchestrator",
+      "outputs": ["package.json", "folder_structure"],
+      "validation": "npm run dev works"
+    },
+    "1.2_database": {
+      "agent": "Architect",
+      "outputs": ["schema.sql", "migrations/"],
+      "human_checkpoint": "Review schema"
+    }
+  },
+  "Phase_2_Backend": {
+    "2.1_api": {
+      "agent": "Code",
+      "dependencies": ["1.2_database"],
+      "outputs": ["routes/", "middleware/"]
+    },
+    "2.2_auth": {
+      "agent": "Code",
+      "scope": "JWT auth only - NO OAuth",
+      "outputs": ["auth endpoints", "tests"]
+    }
+  }
+}
+```
 
 ### Creating Custom Tasks
 When creating tasks for specialist modes, use the standardized task prompt format:
@@ -326,12 +342,12 @@ This structured format ensures that specialist modes have all the information th
 
 The Boomerang Pattern ensures reliable task delegation and tracking:
 
-1. Add new modes by updating `config.json` and `.roomodes`
+1. Add new modes by updating `custom_modes.yaml`
 2. Create corresponding rule files in `.roo/rules-{new-mode}/rules.md`
 3. Implement mode-specific logging in `.roo/logs/{new-mode}-activity.md`
 4. Update memory indexes to accommodate new artifact types
 
-> **Note**: While `.roomodes` is used for mode assignments, the `.roo` directory structure is still used for keeping notes, logs, and documenting activity and changes.
+> **Note**: The `.roo` directory structure is used for keeping notes, logs, and documenting activity and changes.
 
 ## 📊 Performance Optimization
 
@@ -339,6 +355,13 @@ The Boomerang Pattern ensures reliable task delegation and tracking:
 - Start with the least token-intensive cognitive primitives
 - Break complex tasks into atomic components
 - Use the most specialized mode for each subtask
+
+## 📚 Documentation
+
+For detailed documentation on Roo Code features:
+- [Custom Instructions](https://docs.roocode.com/features/custom-instructions)
+- [Custom Modes](https://docs.roocode.com/features/custom-modes)
+- [Enhance Prompt](https://docs.roocode.com/features/enhance-prompt)
 
 ## 🤝 Contributing
 
