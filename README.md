@@ -251,17 +251,6 @@ Below is an architectural overview of how the Roo framework operates:
 
 ```
 
-
-### Additional Configuration
-
-#### Configure Enhance Prompt (Optional)
-1. Click the "Support Prompts" button in the Roo sidebar
-2. Select "Enhance Prompt"
-3. Copy the contents of `templates/enhance-prompt-template.md`
-4. Paste into the Prompt field
-5. Click "Save"
-> Learn more: [Enhance Prompt Documentation](https://docs.roocode.com/features/enhance-prompt)
-
 ## 🧩 Basic Usage
 
 1. **Start with Orchestrator Mode** - This is your project manager who will coordinate everything
