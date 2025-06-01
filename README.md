@@ -243,8 +243,6 @@ Below is an architectural overview of how the Roo framework operates:
    - Click "Save"
    > Learn more: [Enhance Prompt Documentation](https://docs.roocode.com/features/enhance-prompt)
 
-   ```
-
 #### Option 1: NPM (Coming Soon)
 
 ```
