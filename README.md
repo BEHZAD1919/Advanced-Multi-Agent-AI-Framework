@@ -225,7 +225,7 @@ Below is an architectural overview of how the Roo framework operates:
    - Select "Edit Project Modes (custom_modes.yaml)"
    - Verify the content matches your project needs
    - Click "Save"
-   > Learn more: [Custom Mode Documentation] https://docs.roocode.com/features/custom-modes)
+   > Learn more: [Custom Instructions](https://docs.roocode.com/features/custom-instructions)  
 
 4. Set up the custom instructions:
    - Click the "Modes" button
@@ -233,7 +233,7 @@ Below is an architectural overview of how the Roo framework operates:
    - Copy the contents of `custom-instructions-for-all-modes.md`
    - Paste into the Custom Instructions field
    - Click "Save"
-   > Learn more: [Custom Instructions Documentation] (https://docs.roocode.com/features/custom-instructions)
+   > Learn more: [Custom Modes](https://docs.roocode.com/features/custom-modes) 
 
 5. Configure the Enhance Prompt feature:
    - Click the "Support Prompts" button
