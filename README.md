@@ -225,6 +225,7 @@ Below is an architectural overview of how the Roo framework operates:
    - Select "Edit Project Modes (custom_modes.yaml)"
    - Verify the content matches your project needs
    - Click "Save"
+   > Learn more: [Custom Mode Documentation] https://docs.roocode.com/features/custom-modes)
 
 4. Set up the custom instructions:
    - Click the "Modes" button
@@ -232,6 +233,7 @@ Below is an architectural overview of how the Roo framework operates:
    - Copy the contents of `custom-instructions-for-all-modes.md`
    - Paste into the Custom Instructions field
    - Click "Save"
+   > Learn more: [Custom Instructions Documentation] (https://docs.roocode.com/features/custom-instructions)
 
 5. Configure the Enhance Prompt feature:
    - Click the "Support Prompts" button
@@ -241,11 +243,6 @@ Below is an architectural overview of how the Roo framework operates:
    - Click "Save"
    > Learn more: [Enhance Prompt Documentation](https://docs.roocode.com/features/enhance-prompt)
 
-6. Create the project structure:
-   ```bash
-   mkdir .roo
-   echo "{}" > .roo/boomerang-state.json
-   mkdir -p .roo/logs .roo/memory
    ```
 
 #### Option 1: NPM (Coming Soon)
