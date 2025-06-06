@@ -105,6 +105,8 @@ Below is an architectural overview of how the Roo framework operates. This model
 
 ### Installation
 
+https://youtu.be/9pBT7bE_8bE
+
 1.  **Clone this repository**:
     ```
     git clone https://github.com/Mnehmos/The-Ultimate-Roo-Code-Hack-Building-a-Structured-Transparent-and-Well-Documented-AI-Team.git
