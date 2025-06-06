@@ -39,10 +39,10 @@ Below is an architectural overview of how the Roo framework operates. This model
 └───────────────┬─────────────────┘
                 │
                 ▼
-┌─────────────────────────────────┐      ┌─────────────────────────┐
-│           Orchestrator          │      │         User            │
-│     (Initiates and manages      │◄─────┤     (Provides goal)     │
-│      the entire workflow)       │      │                         │
+┌─────────────────────────────────┐      ┌─────────────────────────┐          ┌─────────────────────────┐    
+│           Orchestrator          │      │      Enhance Prompt     │          │         User            │
+│     (Initiates and manages      │◄─────┤        (Task map)       │    ◄─────┤     (Provides goal)     │
+│      the entire workflow)       │      │                         │          │                         │
 └───────────────┬─────────────────┘
                 │
                 ▼
