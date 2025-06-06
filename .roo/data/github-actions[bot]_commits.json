@@ -1,0 +1,18 @@
+[
+  {
+    "sha": "93818716e447380fff682c0534e41d09975df5ae",
+    "message": "Changeset version bump (#4390)\n\n* changeset version bump\n\n* Update CHANGELOG.md\n\n---------\n\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>\nCo-authored-by: Matt Rubens <mrubens@users.noreply.github.com>",
+    "url": "https://github.com/RooCodeInc/Roo-Code/commit/93818716e447380fff682c0534e41d09975df5ae",
+    "author": "github-actions[bot]",
+    "email": "41898282+github-actions[bot]@users.noreply.github.com",
+    "date": "2025-06-05T21:56:40Z"
+  },
+  {
+    "sha": "ae118c6c783d522b1004876fb423766fe5307ec4",
+    "message": "Update contributors list (#4224)\n\ndocs: update contributors list [skip ci]\n\nCo-authored-by: mrubens <mrubens@users.noreply.github.com>",
+    "url": "https://github.com/RooCodeInc/Roo-Code/commit/ae118c6c783d522b1004876fb423766fe5307ec4",
+    "author": "github-actions[bot]",
+    "email": "41898282+github-actions[bot]@users.noreply.github.com",
+    "date": "2025-06-04T21:01:10Z"
+  }
+]

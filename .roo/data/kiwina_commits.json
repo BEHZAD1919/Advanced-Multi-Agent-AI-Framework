@@ -1,0 +1,42 @@
+[
+  {
+    "sha": "3f3825a219af741f20f71e0ead3d6d6eb836a79d",
+    "message": "fix: Address memory leaks in ChatView component (ChatView_1113, ChatView_1236) (#4248)\n\n* chore: Staging ChatView.tsx after reset to main\n\n* fix: Address memory leaks in ChatView (ChatView_1113, ChatView_1236)",
+    "url": "https://github.com/RooCodeInc/Roo-Code/commit/3f3825a219af741f20f71e0ead3d6d6eb836a79d",
+    "author": "kiwina",
+    "email": "kiwina@users.noreply.github.com",
+    "date": "2025-06-04T21:34:34Z"
+  },
+  {
+    "sha": "f5612081463b4d7b956b22c06c737ed789f792c5",
+    "message": "fix(WorkspaceTracker): Dispose FileSystemWatcher and other disposables to prevent resource leaks (#4237)\n\nfix: auto patch for WorkspaceTracker_45",
+    "url": "https://github.com/RooCodeInc/Roo-Code/commit/f5612081463b4d7b956b22c06c737ed789f792c5",
+    "author": "kiwina",
+    "email": "kiwina@users.noreply.github.com",
+    "date": "2025-06-04T20:57:54Z"
+  },
+  {
+    "sha": "6f2110354505436cbd6f0e3ef6c48ee56cbe8224",
+    "message": "fix: Prevent FileSystemWatcher leak in RooIgnoreController (#4233)\n\n* fix: auto patch for RooIgnoreController_41\n\n* fix: improve error handling during task disposal and cleanup",
+    "url": "https://github.com/RooCodeInc/Roo-Code/commit/6f2110354505436cbd6f0e3ef6c48ee56cbe8224",
+    "author": "kiwina",
+    "email": "kiwina@users.noreply.github.com",
+    "date": "2025-06-04T20:54:24Z"
+  },
+  {
+    "sha": "815a0fb846531849cfbbb6a72dab4d03afcc8ba2",
+    "message": "fix(RooTips): Clear setTimeout in useEffect cleanup to prevent state updates on unmounted components (#4235)\n\nfix: auto patch for RooTips_37",
+    "url": "https://github.com/RooCodeInc/Roo-Code/commit/815a0fb846531849cfbbb6a72dab4d03afcc8ba2",
+    "author": "kiwina",
+    "email": "kiwina@users.noreply.github.com",
+    "date": "2025-06-04T20:49:55Z"
+  },
+  {
+    "sha": "15b37134c1e648ef3b4ea3319a701e7fd3978294",
+    "message": "fix(clipboard): Clear setTimeout in useCopyToClipboard to resolve memory leak (#4228)\n\nfix: auto patch for clipboard_44",
+    "url": "https://github.com/RooCodeInc/Roo-Code/commit/15b37134c1e648ef3b4ea3319a701e7fd3978294",
+    "author": "kiwina",
+    "email": "kiwina@users.noreply.github.com",
+    "date": "2025-06-04T20:45:51Z"
+  }
+]

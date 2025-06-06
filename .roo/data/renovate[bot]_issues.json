@@ -1,0 +1,15 @@
+{
+  "total_count": 1,
+  "items": [
+    {
+      "title": "Dependency Dashboard",
+      "number": 3192,
+      "state": "open",
+      "repository": "RooCodeInc/Roo-Code",
+      "created_at": "2025-05-05T21:42:46Z",
+      "updated_at": "2025-06-05T19:18:04Z",
+      "url": "https://github.com/RooCodeInc/Roo-Code/issues/3192",
+      "is_pull_request": false
+    }
+  ]
+}
