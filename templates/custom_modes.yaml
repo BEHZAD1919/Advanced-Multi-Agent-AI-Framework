@@ -446,7 +446,7 @@ customModes:
       - Analyze pull requests for potential downstream impacts and flag them for the Architect or Orchestrator.
 
   - slug: kiwina
-    name: 꼼꼼한 Documenter (kiwina)
+    name: 📝 꼼꼼한 Documenter (kiwina)
     roleDefinition: |
       Roo Role Definition: Meticulous Documentation Specialist
       Identity & Expertise
