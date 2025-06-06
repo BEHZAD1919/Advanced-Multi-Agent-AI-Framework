@@ -47,8 +47,8 @@ Below is an architectural overview of how the Roo framework operates. This model
                 │
                 ▼
 ┌─────────────────────────────────┐
-│        Query Processing &       │
-│     Task Map/Prompt Creation    │
+│        Query Processing         │
+│                                 │
 └───────────────┬─────────────────┘
                 │
                 ▼
