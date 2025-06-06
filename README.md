@@ -22,8 +22,6 @@ If this project helps you build better AI systems and you'd like to show your ap
 
 Below is an architectural overview of how the Roo framework operates. This model is inspired by the principles of Team Topologies, which emphasizes a focus on the flow of value and clear team interaction modes.
 
-[Watch the video](https://youtu.be/9pBT7bE_8bE)
-
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -39,6 +37,7 @@ Below is an architectural overview of how the Roo framework operates. This model
 
 ### Installation
 
+[Watch the video](https://youtu.be/9pBT7bE_8bE)
 
 1.  **Clone this repository**:
     ```
