@@ -18,10 +18,6 @@ If this project helps you build better AI systems and you'd like to show your ap
 -   **Token Optimization**: Efficient resource usage through the "Scalpel, not Hammer" approach.
 -   **Task Maps**: JSON blueprints that break down projects into phases and tasks with dependencies and validation.
 
-## 🏗️ Architecture
-
-Below is an architectural overview of how the Roo framework operates. This model is inspired by the principles of Team Topologies, which emphasizes a focus on the flow of value and clear team interaction modes.
-
 ## 🚀 Getting Started
 
 ### Prerequisites
