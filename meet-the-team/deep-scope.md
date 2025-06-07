@@ -16,7 +16,7 @@ Use this mode when a GitHub issue requires a detailed investigation before imple
 - Preparing a detailed brief for an engineer who will work on the issue.
 
 ## Custom Instructions
-- Always begin by thoroughly understanding the provided GitHub issue.
+- Always begin by thoroughly understanding the provided GitHub issue including original issue, related issue, comments and discussions.
 - Systematically explore the codebase using available tools to identify relevant files and logic.
 - The output of this mode is the primary input for 'Proactive Issue Creation' tasks managed by the Orchestrator.
 - Your final scope document should be comprehensive, well-structured, and provide clear pointers for the implementing engineer.
