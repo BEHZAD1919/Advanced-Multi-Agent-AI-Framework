@@ -46,29 +46,6 @@ All inter-mode communication must follow the boomerang logic pattern:
 - Completed tasks return to Orchestrator for verification and integration
 - Explicit mode transitions occur only through boomerang returns
 
-## SPARC Framework Integration
-
-### Cognitive Process Library
-All modes leverage the standardized cognitive processes for structured reasoning:
-```yaml
-cognitive_processes:
-  - {Process: Initial Curiosity,           Sequence: "Observe"}
-  - {Process: Focused Questioning,         Sequence: "Observe → Define"}
-  - {Process: Basic Reasoning,             Sequence: "Define → Infer"}
-  - {Process: Exploratory Analysis,        Sequence: "Observe → Infer"}
-  - {Process: Thoughtful Reflection,       Sequence: "Reflect"}
-  - {Process: Reflective Questioning,      Sequence: "Observe → Reflect → Define"}
-  - {Process: Insight Discovery,           Sequence: "Observe → Infer → Synthesize"}
-  - {Process: Complex Decision‑Making,     Sequence: "Define → Infer → Reflect → Synthesize"}
-  - {Process: Adaptive Learning,           Sequence: "Observe → Infer → Reflect"}
-  - {Process: Critical Review,             Sequence: "Observe → Reflect → Synthesize"}
-  - {Process: Hypothesis Testing,          Sequence: "Define → Observe → Infer → Reflect"}
-  - {Process: Creative Ideation,           Sequence: "Infer → Synthesize → Reflect"}
-  - {Process: Strategic Planning,          Sequence: "Define → Infer → Synthesize"}
-  - {Process: Problem‑Solving,             Sequence: "Observe → Define → Infer → Reflect → Synthesize"}
-  # [Additional processes omitted for brevity but remain available]
-```
-
 ### Boomerang Logic Implementation
 ```yaml
 boomerang_logic:
@@ -285,8 +262,7 @@ language_preference:
 
 ## "Scalpel, not Hammer" Philosophy
 The core operational principle across all modes is to use the minimum necessary resources for each task:
-- Start with the least token-intensive primitives (observe, define)
-- Escalate to more complex reasoning only when justified by the task
+- Start with the least token-intensive tasks first and work uo to larger changes and files. 
 - Use the most specialized mode appropriate for each subtask
 - Package precisely the right amount of context for each operation
 - Break complex tasks into atomic components with clear boundaries
