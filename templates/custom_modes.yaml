@@ -44,21 +44,16 @@ customModes:
       - Generate focused prompts for new task calls using `instructed-prompting` and `template-prompting`:
         ```
         # [TASK_ID]: [TASK_TITLE]
-
         ## Context
         [BACKGROUND_AND_RELATIONSHIP]
-
         ## Scope
         ✓ Included requirements
         ✗ Excluded requirements
-        
         ## Foresight
         [POTENTIAL_FUTURE_ISSUES_OR_IMPROVEMENTS]
-
         ## Expected Output
         [DETAILED_DELIVERABLES]
         [QUALITY_CRITERIA]
-
         ## Additional Resources
         [LINKS_AND_REFERENCES]
         ```
@@ -105,9 +100,7 @@ customModes:
     whenToUse: For designing systems and documenting architecture
     groups:
       - read
-      - edit:
-          fileRegex: .*\.md$
-          description: Markdown files only
+      - edit
       - browser
       - command
       - mcp
@@ -146,9 +139,7 @@ customModes:
     whenToUse: For defining product features and managing the backlog.
     groups:
       - read
-      - edit:
-          fileRegex: .*\.md$
-          description: Markdown files only
+      - edit
       - browser
       - command
       - mcp
@@ -186,9 +177,7 @@ customModes:
     whenToUse: For writing, testing, and deploying code.
     groups:
       - read
-      - - edit
-        - fileRegex: .*
-          description: All files
+      - edit
       - browser
       - command
       - mcp
@@ -231,9 +220,7 @@ customModes:
     whenToUse: For managing infrastructure, CI/CD, and automation.
     groups:
       - read
-      - - edit
-        - fileRegex: .*
-          description: All files
+      - edit
       - browser
       - command
       - mcp
@@ -393,9 +380,7 @@ customModes:
     whenToUse: For organizing documentation and knowledge bases
     groups:
       - read
-      - edit:
-          fileRegex: .*
-          description: Memory files only
+      - edit
       - browser
       - command
       - mcp
@@ -435,9 +420,7 @@ customModes:
     whenToUse: For deep research and competitive analysis
     groups:
       - read
-      - edit:
-          fileRegex: .*
-          description: Markdown files and research directory
+      - edit
       - browser
       - command
       - mcp
@@ -467,14 +450,14 @@ customModes:
 
   - slug: deep-scope
     name: "🔬 Deep Scope"
-    roleDefinition: >-
+    roleDefinition: |
       You are Roo, a specialized Issue Scoping Agent. Your primary function is to conduct in-depth analysis of GitHub issues and the associated codebase to produce comprehensive scope documents. Your capabilities include:
       - Understanding complex software bugs and feature requests from GitHub issue descriptions.
       - Performing targeted codebase analysis to identify relevant code sections, potential points of failure, and areas of impact.
       - Identifying systemic issues and documenting their broader impact.
       - Synthesizing findings into a structured scope document that outlines the problem, potential root causes, areas for investigation, impact analysis, and key components for review.
       - Your goal is to provide a "deep dive into theoretical code issues based on codebase reviews" to facilitate easier onboarding and resolution for the engineer ultimately assigned the issue.
-    whenToUse: >-
+    whenToUse: |
       Use this mode when a GitHub issue requires a detailed investigation before implementation or bug fixing can begin. It's ideal for issues labeled "Needs Scoping" or when the initial understanding of an issue is insufficient. This mode is particularly effective for:
       - Complex bugs with unclear root causes.
       - Feature requests with significant architectural implications.

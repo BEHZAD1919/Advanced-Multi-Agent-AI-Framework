@@ -1,228 +1,244 @@
-# Building a Structured, Transparent, and Well-Documented AI Team
+# Advanced Multi-Agent AI Framework - Professional Team Coordination with 80+ Prompt Engineering Techniques
 
-This repository provides a framework for building and managing a hybrid AI team within the Roo Code environment. It combines industry best practices with advanced prompt engineering techniques to create a comprehensive and effective team structure.
+> **Transform your AI development workflow with a production-ready multi-agent framework combining advanced prompt engineering, structured coordination, and professional team management.**
 
+**🔗 Quick Links:** [Kilo Code Platform](https://marketplace.visualstudio.com/items?itemName=kilocode.Kilo-Code) | [Master Prompt Engineering Techniques](https://mnehmos.github.io/Prompt-Engineering/index.html)
 ## 🙏 Support This Work
 
 If this project helps you build better AI systems and you'd like to show your appreciation:
 
 - **Buy Me a Coffee**: https://buymeacoffee.com/mnehmos
-- **Check out Vario Research**: For advanced Deep Research alternatives, visit https://mnehmos.github.io/VarioResearch/ for custom reports in any format.
 
-## 🌟 Key Features
+## 🎯 What This Framework Delivers
 
-- **Multi-Agent Framework**: Specialized modes for different types of tasks enhanced with 80+ prompt engineering techniques
-- **SPARC Framework**: A structured approach to complex problem-solving with semantic precision
-- **Agentic Boomerang**: A reliable system for task delegation and tracking
-- **Structured Documentation**: Consistent and traceable documentation across all modes
-- **Token Optimization**: Efficient resource usage through the "Scalpel, not Hammer" approach
-- **Task Maps**: JSON blueprints that break down projects into phases and tasks with dependencies and validation
-- **Advanced Prompt Engineering**: Integration of cutting-edge techniques for superior performance
+**Professional AI Team Management** - Deploy specialized AI agents with enterprise-grade coordination, advanced prompt engineering, and systematic workflow automation for superior development outcomes.
 
-## 🚀 Getting Started
+### Key Benefits
+- **⚡ 80+ Advanced Prompt Engineering Techniques** - Integrated cutting-edge methods for superior AI performance
+- **🔄 Multi-Agent Coordination** - SPARC framework with agentic boomerang pattern for reliable task delegation
+- **📈 Performance Optimization** - Token-efficient operations with "scalpel, not hammer" resource management
+- **🏗️ Production-Ready Architecture** - Structured documentation, traceability, and enterprise workflow patterns
+- **🛠️ Framework Extensibility** - Customizable modes and prompt engineering technique integration
+
+## 🚀 Quick Start Guide
 
 ### Prerequisites
-- A compatible AI assistant that supports custom modes (Roo Code recommended)
-- A basic understanding of the SPARC framework concepts
+- **Kilo Code AI Platform** (recommended) or compatible AI assistant with custom modes
+- Basic understanding of multi-agent AI systems
+- Project requiring systematic AI team coordination
 
-### Documentation:
-- [Custom Instructions](templates/custom-instructions-for-all-modes.md)
-- [Custom Modes](templates/custom_modes.yaml)
-- [Enhance Prompt](templates/enhance-prompt-template.md)
+### Installation & Setup
 
-### Installation
+**1. Clone the Framework**
+```bash
+git clone https://github.com/Mnehmos/Advanced-Multi-Agent-AI-Framework.git
+cd Advanced-Multi-Agent-AI-Framework
+```
 
-**Watch the video** *(link when available)*
+**2. Configure AI Team Modes**
+```bash
+# Copy configuration templates
+cp templates/custom_modes.yaml ./
+cp templates/custom-instructions-for-all-modes.md ./
+cp templates/enhance-prompt-template.md ./
+```
 
-1. **Clone this repository:**
-   ```bash
-   git clone https://github.com/Mnehmos/The-Ultimate-Roo-Code-Hack-Building-a-Structured-Transparent-and-Well-Documented-AI-Team.git
-   ```
+**3. Deploy to Kilo Code**
+- Open Kilo Code → "Modes" → "Edit Project Modes"
+- Import `custom_modes.yaml` configuration
+- Configure custom instructions from template
+- Enable enhance prompt feature
+- Save and activate framework
 
-2. **Copy the template files:**
-   ```bash
-   cp templates/custom_modes.yaml ./
-   cp templates/custom-instructions-for-all-modes.md ./
-   cp templates/enhance-prompt-template.md ./
-   ```
+**4. Start Orchestrating**
+- Switch to **Orchestrator Mode**
+- Describe your project requirements
+- Generate Task Map using enhance prompt (✨ button)
+- Let the AI team execute with full coordination
 
-3. **Configure your AI assistant:**
-   - Click the "Modes" button in the Roo sidebar
-   - Select "Edit Project Modes (custom_modes.yaml)"
-   - Verify the content matches your project needs
-   - Click "Save"
-   
-   Learn more: [Custom Instructions](templates/custom-instructions-for-all-modes.md)
+## 🏛️ Framework Architecture
 
-4. **Set up the custom instructions:**
-   - Click the "Modes" button
-   - Scroll to "Custom Instructions for All Modes"
-   - Copy the contents of `custom-instructions-for-all-modes.md`
-   - Paste into the Custom Instructions field
-   - Click "Save"
-   
-   Learn more: [Custom Modes](templates/custom_modes.yaml)
+### Core Coordination Layer
+| Mode | Specialization | Advanced Techniques |
+|------|----------------|-------------------|
+| **🔄 Orchestrator** | Project Management & Task Delegation | `workflow-template-prompting`, `boomerang-task-delegation` |
+| **🏗️ Architect** | System Design & Architecture | `visual-documentation-generation`, `tree-of-thoughts` |
+| **📅 Planner** | Product Planning & Requirements | `user-story-prompting`, `stakeholder-perspective-analysis` |
 
-5. **Configure the Enhance Prompt feature:**
-   - Click the "Support Prompts" button
-   - Select "Enhance Prompt"
-   - Copy the contents of `enhance-prompt-template.md`
-   - Paste into the Prompt field
-   - Click "Save"
-   
-   Learn more: [Enhance Prompt Documentation](templates/enhance-prompt-template.md)
+### Implementation Team
+| Mode | Specialization | Advanced Techniques |
+|------|----------------|-------------------|
+| **⚒️ Builder** | Software Development & Testing | `code-generation-agents`, `test-based-iterative-flow` |
+| **💻 Code** | Advanced Coding & Optimization | `modular-code-generation`, `language-construct-modeling` |
+| **🔒 Guardian** | Infrastructure & CI/CD | `automated-development-workflows`, `semantic-guardrails` |
 
-## 🧩 Basic Usage
+### Research & Analysis Team
+| Mode | Specialization | Advanced Techniques |
+|------|----------------|-------------------|
+| **❓ Ask** | Information Discovery | `rag`, `iterative-retrieval-augmentation` |
+| **🔎 Deep Research** | Comprehensive Analysis | `multi-perspective-analysis`, `systematic-literature-review` |
+| **🔬 Deep Scope** | Issue Analysis & Scoping | `codebase-impact-mapping`, `hypothetical-scenario-modeling` |
 
-1. **Start with Orchestrator Mode**: This is your project manager who will coordinate everything
-2. **Describe your project**: Be as detailed as possible in your initial prompt
-3. **Generate Task Map**: Use the Enhance Prompt feature to create a JSON Task Map
-4. **Let Orchestrator execute**: It will delegate tasks to specialist modes based on the Task Map
-5. **Review results**: Orchestrator integrates all pieces and presents the final output
+### Support Specialists
+| Mode | Specialization | Advanced Techniques |
+|------|----------------|-------------------|
+| **🐛 Debug** | Technical Diagnostics | `five-whys-prompting`, `chain-of-verification` |
+| **📁 Memory** | Knowledge Management | `semantic-clustering`, `knowledge-graph-construction` |
 
-## 🧩 Using the Modes
+## 🎯 Use Cases & Applications
 
-### Switching Modes
-- Click on the current mode name in the bottom left corner of the Roo interface
-- Select the desired mode from the dropdown menu
+### **Enterprise Software Development**
+- Complex application architecture planning
+- Multi-team coordination and workflow automation
+- Advanced code generation with quality assurance
+- Systematic debugging and performance optimization
 
-### Using the Enhance Prompt Feature (Task Map Generator)
-1. Type your basic project description in the chat
-2. Click the ✨ button next to the send button
-3. Roo will transform your input into a comprehensive JSON Task Map
-4. Review and edit the Task Map if needed
-5. Orchestrator will use the Task Map to coordinate the project
+### **AI Research Projects**
+- Literature review and competitive analysis
+- Hypothesis formation and testing workflows
+- Knowledge management and documentation systems
+- Multi-perspective research synthesis
 
-### Task Map Example
+### **Product Development**
+- User story creation and requirement analysis
+- Feature planning with stakeholder perspective analysis
+- Technical implementation with architectural guidance
+- Quality assurance and testing automation
+
+### **Infrastructure Management**
+- CI/CD pipeline design and automation
+- Security implementation and monitoring
+- Performance optimization and scaling
+- Documentation and knowledge preservation
+
+## 🔄 The SPARC + Boomerang Methodology
+
+### SPARC Framework Integration
+**S**pecification → **P**seudocode → **A**rchitecture → **R**efinement → **C**ompletion
+
+### Boomerang Task Delegation
+1. **Task Creation** - Orchestrator generates structured tasks from project requirements
+2. **Specialist Assignment** - Tasks delegated to most appropriate AI agent
+3. **Advanced Execution** - Specialists apply 80+ prompt engineering techniques
+4. **Quality Integration** - Results validated and integrated into project workflow
+5. **Iterative Improvement** - Continuous optimization through feedback loops
+
+## 📊 Performance & Optimization Features
+
+### **Token Efficiency**
+- Context window utilization kept below 40%
+- Cognitive primitive optimization (start small, scale up)
+- Specialized mode selection for minimal resource usage
+- "Scalpel, not Hammer" resource management philosophy
+
+### **Quality Assurance**
+- Structured task validation and success criteria
+- Cross-mode verification and error checking
+- Comprehensive documentation and traceability
+- Automated workflow optimization
+
+### **Scalability**
+- Modular architecture supporting team expansion
+- Customizable prompt engineering technique integration
+- Enterprise workflow pattern implementation
+- Professional project management capabilities
+
+## 📚 Advanced Documentation
+
+### **Framework Configuration**
+- [🛠️ Custom Instructions Guide](templates/custom-instructions-for-all-modes.md)
+- [⚙️ Custom Modes Configuration](templates/custom_modes.yaml)
+- [✨ Enhance Prompt Documentation](templates/enhance-prompt-template.md)
+
+### **Team Member Profiles**
+Detailed documentation for each AI specialist:
+- [Meet the AI Team →](meet-the-team/)
+
+### **Task Management**
 ```json
 {
-  "project": "A Clear and Concise Project Name",
-  "Phase_1_A_Descriptive_Phase_Name": {
-    "1.1_a_unique_and_descriptive_task_id": {
-      "agent": "The Most Appropriate Specialist Mode",
-      "dependencies": ["a_list_of_task_ids_this_task_depends_on"],
-      "outputs": ["A list of expected artifacts, such as files or documents"],
-      "validation": "A clear, measurable success criterion for this task",
-      "human_checkpoint": "A boolean indicating if human review is required before proceeding",
-      "scope": "A detailed description of what is in and out of scope for this task"
-    }
-  },
-  "Phase_2_Another_Descriptive_Phase_Name": {
-    "2.1_another_unique_task_id": {
-      "...": "..."
+  "project": "Advanced AI System Development",
+  "Phase_1_Architecture_Planning": {
+    "1.1_system_design": {
+      "agent": "Architect",
+      "techniques": ["visual-documentation-generation", "tree-of-thoughts"],
+      "outputs": ["architecture_diagram.md", "technical_specifications.md"],
+      "validation": "Architecture review completed with stakeholder approval",
+      "human_checkpoint": true
     }
   }
 }
 ```
 
-### Creating Custom Tasks
-When creating tasks for specialist modes, use the standardized task prompt format:
+## 🛡️ Enterprise Features
 
-```markdown
-# [TASK_ID]: [TASK_TITLE]
+### **Security & Compliance**
+- Structured documentation for audit trails
+- Role-based task assignment and validation
+- Quality gates and automated verification
+- Professional workflow management
 
-## 1. Objective
-*A clear, concise statement of the task's goal.*
+### **Integration Capabilities**
+- GitHub integration for issue and PR management
+- CI/CD pipeline automation
+- Knowledge management system integration
+- Custom prompt engineering technique deployment
 
-## 2. Context & Background
-*Relevant information, including links to related issues, PRs, or other documentation. Explain the "why" behind the task.*
+### **Support & Maintenance**
+- Comprehensive error handling and debugging
+- Performance monitoring and optimization
+- Documentation generation and maintenance
+- Continuous improvement through feedback integration
 
-## 3. Scope
-- **In Scope:**
-  - *A bulleted list of specific, actionable requirements.*
-- **Out of Scope:**
-  - *A bulleted list of what is explicitly not to be done.*
+## 🤝 Community & Support
 
-## 4. Acceptance Criteria
-*A set of measurable criteria that must be met for the task to be considered complete. Each criterion should be a testable statement.*
-- [ ] *Criterion 1: ...*
-- [ ] *Criterion 2: ...*
-- [ ] *Criterion 3: ...*
+### **Get Help**
+- **Documentation**: Complete framework guides and tutorials
+- **Issues**: Report bugs or request features via GitHub Issues
+- **Discussions**: Join community discussions for best practices
+- **Professional Support**: Contact for enterprise implementation assistance
 
-## 5. Deliverables
-*A list of the expected outputs from this task.*
-- **Artifacts:** *(e.g., a new file, a modified class, a markdown document)*
-- **Documentation:** *(e.g., updated README, new API documentation)*
-- **Tests:** *(e.g., unit tests, integration tests)*
+### **Support the Project**
+- ⭐ **Star this repository** to help others discover the framework
+- 🤝 **Contribute** improvements and new prompt engineering techniques
+- ☕ **Buy Me a Coffee**: [Support Development](https://buymeacoffee.com/mnehmos)
+- 🔬 **Advanced Research**: Explore [Vario Research](https://mnehmos.github.io/VarioResearch/) for custom AI analysis
 
-## 6. [Optional] Implementation Plan
-*A suggested, high-level plan for completing the task. This is not a rigid set of instructions, but a guide to get started.*
+## 📈 Roadmap & Future Development
 
-## 7. [Optional] Additional Resources
-*Links to relevant documentation, examples, or other materials that may be helpful.*
-```
+### **Upcoming Features**
+- Additional prompt engineering technique integration
+- Enhanced multi-modal AI support
+- Extended enterprise workflow patterns
+- Advanced performance analytics and monitoring
 
-This structured format ensures that specialist modes have all the information they need to complete tasks effectively and consistently.
+### **Research Integration**
+- Latest prompt engineering research incorporation
+- Multi-agent coordination optimization
+- Framework scalability improvements
+- Advanced AI reasoning technique integration
 
-## 🔄 The Boomerang Pattern
+## 📄 License & Attribution
 
-The Boomerang Pattern is a core concept in Roo Code that enables the Orchestrator to break down complex projects into smaller, manageable tasks and delegate them to specialized modes. This pattern is the engine that powers our Task Map and New Task frameworks.
+**MIT License** - Open source framework for professional and commercial use.
 
-The process works as follows:
-
-1. **Task Creation**: The Orchestrator creates a new task, either from a Task Map or a "New Task" prompt
-2. **Delegation**: The task is delegated to the most appropriate specialist mode
-3. **Execution**: The specialist mode executes the task, focusing on its specific area of expertise
-4. **Return**: Once the task is complete, the specialist mode "boomerangs" the result back to the Orchestrator
-5. **Integration**: The Orchestrator integrates the result into the overall project, updates the Task Map, and delegates the next task
-
-This recursive loop of delegation, execution, and integration allows for a highly efficient and organized workflow, ensuring that complex projects are completed in a structured and transparent manner. Each agent is responsible for recording their actions as appropriate in the `.roo/logs` directory, ensuring a complete and traceable record of the project's history.
-
-## 👥 Meet the Team
-
-Our AI team consists of specialized modes, each enhanced with advanced prompt engineering techniques:
-
-### Core Coordination
-- **🪃 [Orchestrator](meet-the-team/orchestrator.md)**: Project coordination and task delegation with workflow-template-prompting
-- **🏛️ [Architect](meet-the-team/architect.md)**: System design and architecture with visual-documentation-generation
-- **🗓️ [Planner](meet-the-team/planner.md)**: Product planning and requirements with user-story-prompting
-
-### Implementation Team
-- **🧱 [Builder](meet-the-team/builder.md)**: Software development and testing with code-generation-agents
-- **💻 [Code](meet-the-team/code.md)**: Advanced coding and optimization with modular-code-generation
-- **🛡️ [Guardian](meet-the-team/guardian.md)**: Infrastructure and CI/CD with automated-development-workflows
-
-### Research & Analysis
-- **❓ [Ask](meet-the-team/ask.md)**: Information discovery with RAG and iterative-retrieval-augmentation
-- **🔍 [Deep Research](meet-the-team/deep-research-agent.md)**: Comprehensive analysis with multi-perspective-analysis
-- **🔎 [Deep Scope](meet-the-team/deep-scope.md)**: Issue scoping with codebase-impact-mapping
-
-### Support Specialists  
-- **🪲 [Debug](meet-the-team/debug.md)**: Technical diagnostics with five-whys-prompting
-- **💾 [Memory](meet-the-team/memory.md)**: Knowledge management with semantic-clustering
-
-Each mode integrates advanced prompt engineering techniques for superior performance while maintaining unified methodology and quality standards.
-
-## 📊 Performance Optimization
-
-- Keep context window utilization below 40%
-- Start with the least token-intensive cognitive primitives
-- Break complex tasks into atomic components
-- Use the most specialized mode for each subtask
-- Apply "Scalpel, not Hammer" philosophy throughout
-
-## 📚 Documentation
-
-For detailed documentation on Roo Code features:
-- [Custom Instructions](templates/custom-instructions-for-all-modes.md)
-- [Custom Modes](templates/custom_modes.yaml)
-- [Enhance Prompt](templates/enhance-prompt-template.md)
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🙏 Acknowledgments
-
-- The SPARC framework developers
-- Contributors to the multi-agent AI research community (Roo Code, huge shoutout)
+### **Acknowledgments**
+- SPARC Framework development community
+- Multi-agent AI research contributors
+- Kilo Code platform development team
 - Advanced prompt engineering research community
-- All users who provide feedback and suggestions
+- Framework users providing feedback and improvements
 
 ---
 
-*This framework represents a mature, research-backed approach to AI team building, integrating 80+ prompt engineering techniques with proven multi-agent coordination patterns for superior development outcomes.*
+## 🎯 Ready to Transform Your AI Development?
+
+**Deploy this professional multi-agent AI framework today and experience:**
+- ⚡ **Faster Development** with coordinated AI specialists
+- 🎯 **Higher Quality** through advanced prompt engineering
+- 📈 **Better Outcomes** with systematic workflow management
+- 🏗️ **Scalable Architecture** for growing project needs
+
+*This framework represents the cutting edge of multi-agent AI coordination, integrating 80+ advanced prompt engineering techniques with proven enterprise workflow patterns for superior development outcomes.*
+
+**[🚀 Get Started Now](#-quick-start-guide) | [📚 View Documentation](templates/) | [👥 Meet the Team](meet-the-team/)**
