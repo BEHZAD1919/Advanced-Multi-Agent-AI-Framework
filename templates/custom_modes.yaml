@@ -26,36 +26,54 @@ customModes:
       - Leverage `github-integration-prompting` for automated PR and issue management
 
       ## Task Map Framework
-      - Create JSON project blueprints with phases, tasks and dependencies
+      - Create Markdown project blueprints with phases, tasks and dependencies using checkboxes
       - Example structure:
-        {
-          "project": "Project Name",
-          "Phase_1": {
-            "1.1_task": {
-              "agent": "Mode",
-              "outputs": ["file1", "file2"],
-              "validation": "Success criteria",
-              "human_checkpoint": true/false
-            }
-          }
-        }
+        ```markdown
+        # Project: Project Name
+        
+        ## Phase 1: Phase Description
+        - [ ] **Task 1.1**: Task description
+          - **Agent**: Mode
+          - **Dependencies**: task_ids or "None"
+          - **Outputs**: [file1, file2]
+          - **Validation**: Success criteria
+          - **Human Checkpoint**: YES/NO
+          - **Scope**: Detailed scope description
+        ```
 
       ## New Task Prompt Engineering
       - Generate focused prompts for new task calls using `instructed-prompting` and `template-prompting`:
-        ```
+        ```markdown
         # [TASK_ID]: [TASK_TITLE]
-        ## Context
+        
+        ## 1. Context & Background
         [BACKGROUND_AND_RELATIONSHIP]
-        ## Scope
-        ✓ Included requirements
-        ✗ Excluded requirements
-        ## Foresight
+        
+        ## 2. Scope
+        ### In Scope:
+        - [INCLUDED_REQUIREMENT_1]
+        - [INCLUDED_REQUIREMENT_2]
+        - [INCLUDED_REQUIREMENT_3]
+        
+        ### Out of Scope:
+        - [EXCLUDED_REQUIREMENT_1] ❌
+        - [EXCLUDED_REQUIREMENT_2] ❌
+        
+        ## 3. Foresight & Considerations
         [POTENTIAL_FUTURE_ISSUES_OR_IMPROVEMENTS]
-        ## Expected Output
-        [DETAILED_DELIVERABLES]
-        [QUALITY_CRITERIA]
-        ## Additional Resources
-        [LINKS_AND_REFERENCES]
+        
+        ## 4. Expected Output
+        ### Deliverables:
+        - [DELIVERABLE_1]
+        - [DELIVERABLE_2]
+        
+        ### Quality Criteria:
+        - [QUALITY_CRITERION_1]
+        - [QUALITY_CRITERION_2]
+        
+        ## 5. Additional Resources
+        - [LINK_OR_REFERENCE_1]
+        - [LINK_OR_REFERENCE_2]
         ```
 
       ## Boomerang Lifecycle
@@ -63,7 +81,7 @@ customModes:
       2. Automate the creation of feature branch names based on the task description.
       3. Agent executes and returns result.
       4. Validate against Task Map criteria. Generate or validate conventional commit messages using `structured-commit-workflow`.
-      5. Update Task Map with completion status.
+      5. Update Task Map with completion status by checking off completed tasks.
       6. Assign next task with dependencies resolved.
 
       ## Proactive Issue and PR Management

@@ -17,7 +17,7 @@
 Roo operates across a unified team of specialized modes, each enhanced with advanced prompt engineering techniques. The team follows a consistent SPARC framework methodology with clear responsibilities:
 
 #### Core Functional Modes
-- **🪃 Orchestrator**: Task decomposition, assignment, and verification using JSON Task Maps with `boomerang-task-delegation`.
+- **🪃 Orchestrator**: Task decomposition, assignment, and verification using Markdown Task Maps with `boomerang-task-delegation`.
 - **🏛️ Architect**: System design and pattern application with `visual-documentation-generation` and `tree-of-thoughts`.
 - **🗓️ Planner**: Product features and backlog management using `user-story-prompting` and `requirement-decomposition`.
 - **🧱 Builder**: Software implementation with `code-generation-agents` and `modular-code-generation`.
@@ -44,7 +44,7 @@ boomerang_logic:
   enabled: true
   description: >
     All completed subtasks must boomerang back to their orchestrator
-    with a structured JSON payload.
+    with a structured payload and task map updates.
   structure_example:
     {
       "task_id": "example‑123",
@@ -97,34 +97,46 @@ All subtasks must follow this standardized, state-of-the-art format to ensure cl
 # [TASK_ID]: [TASK_TITLE]
 
 ## 1. Objective
-*A clear, concise statement of the task's goal.*
+A clear, concise statement of the task's goal.
 
 ## 2. Context & Background
-*Relevant information, including links to related issues, PRs, or other documentation. Explain the "why" behind the task.*
+Relevant information, including links to related issues, PRs, or other documentation. Explain the "why" behind the task.
 
 ## 3. Scope
-- **In Scope:**
-  - *A bulleted list of specific, actionable requirements.*
-- **Out of Scope:**
-  - *A bulleted list of what is explicitly not to be done.*
+### In Scope:
+- [SPECIFIC_ACTIONABLE_REQUIREMENT_1]
+- [SPECIFIC_ACTIONABLE_REQUIREMENT_2]
+- [SPECIFIC_ACTIONABLE_REQUIREMENT_3]
+
+### Out of Scope:
+- [EXPLICIT_EXCLUSION_1] ❌
+- [EXPLICIT_EXCLUSION_2] ❌
 
 ## 4. Acceptance Criteria
-*A set of measurable criteria that must be met for the task to be considered complete. Each criterion should be a testable statement.*
-- [ ] *Criterion 1: ...*
-- [ ] *Criterion 2: ...*
-- [ ] *Criterion 3: ...*
+A set of measurable criteria that must be met for the task to be considered complete. Each criterion should be a testable statement.
+- [ ] [TESTABLE_CRITERION_1]
+- [ ] [TESTABLE_CRITERION_2]
+- [ ] [TESTABLE_CRITERION_3]
 
 ## 5. Deliverables
-*A list of the expected outputs from this task.*
-- **Artifacts:** *(e.g., a new file, a modified class, a markdown document)*
-- **Documentation:** *(e.g., updated README, new API documentation)*
-- **Tests:** *(e.g., unit tests, integration tests)*
+### Artifacts:
+- [NEW_FILE_OR_MODIFIED_CLASS]
+- [MARKDOWN_DOCUMENT]
 
-## 6. [Optional] Implementation Plan
-*A suggested, high-level plan for completing the task. This is not a rigid set of instructions, but a guide to get started.*
+### Documentation:
+- [UPDATED_README]
+- [NEW_API_DOCUMENTATION]
 
-## 7. [Optional] Additional Resources
-*Links to relevant documentation, examples, or other materials that may be helpful.*
+### Tests:
+- [UNIT_TESTS]
+- [INTEGRATION_TESTS]
+
+## 6. Implementation Plan (Optional)
+A suggested, high-level plan for completing the task. This is not a rigid set of instructions, but a guide to get started.
+
+## 7. Additional Resources (Optional)
+- [RELEVANT_DOCUMENTATION_LINK]
+- [EXAMPLE_OR_REFERENCE_MATERIAL]
 ```
 
 ### Meta-Information Requirements

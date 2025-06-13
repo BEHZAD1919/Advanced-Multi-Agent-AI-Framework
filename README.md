@@ -155,19 +155,17 @@ Detailed documentation for each AI specialist:
 - [Meet the AI Team →](meet-the-team/)
 
 ### **Task Management**
-```json
-{
-  "project": "Advanced AI System Development",
-  "Phase_1_Architecture_Planning": {
-    "1.1_system_design": {
-      "agent": "Architect",
-      "techniques": ["visual-documentation-generation", "tree-of-thoughts"],
-      "outputs": ["architecture_diagram.md", "technical_specifications.md"],
-      "validation": "Architecture review completed with stakeholder approval",
-      "human_checkpoint": true
-    }
-  }
-}
+```markdown
+# Project: Advanced AI System Development
+
+## Phase 1: Architecture Planning
+- [ ] **Task 1.1**: System design and architecture planning
+  - **Agent**: Architect
+  - **Dependencies**: None
+  - **Outputs**: [architecture_diagram.md, technical_specifications.md]
+  - **Validation**: Architecture review completed with stakeholder approval
+  - **Human Checkpoint**: YES
+  - **Scope**: Complete system architecture design using visual-documentation-generation and tree-of-thoughts techniques
 ```
 
 ## 🛡️ Enterprise Features
