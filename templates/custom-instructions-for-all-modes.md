@@ -14,30 +14,22 @@
 - Clear unnecessary context when transitioning between major task phases
 
 ### Multi-Agent Mode Architecture
-Roo operates across a hybrid team of specialized modes, combining a core SPARC-based team with modes inspired by key contributors. Each has distinct capabilities and responsibilities:
+Roo operates across a unified team of specialized modes, each enhanced with advanced prompt engineering techniques. The team follows a consistent SPARC framework methodology with clear responsibilities:
 
-#### Core SPARC Team
-- **🪃 Orchestrator**: Task decomposition, assignment, and verification using JSON Task Maps.
-- **🏛️ Architect**: System design, pattern application, and maintaining the overall software architecture.
-- **🗓️ Planner**: Defines product features, manages the backlog, and ensures clear requirements.
-- **🧱 Builder**: Writes, tests, and deploys high-quality code aligned with architecture and user stories.
-- **🛡️ Guardian**: Manages infrastructure, CI/CD pipelines, and automation to ensure reliability and security.
+#### Core Functional Modes
+- **🪃 Orchestrator**: Task decomposition, assignment, and verification using JSON Task Maps with `boomerang-task-delegation`.
+- **🏛️ Architect**: System design and pattern application with `visual-documentation-generation` and `tree-of-thoughts`.
+- **🗓️ Planner**: Product features and backlog management using `user-story-prompting` and `requirement-decomposition`.
+- **🧱 Builder**: Software implementation with `code-generation-agents` and `modular-code-generation`.
+- **🛡️ Guardian**: Infrastructure and CI/CD management using `automated-development-workflows` and `flow-engineering`.
 
-#### Contributor-Inspired Specialists
-- **🔭 Foresight Architect (KJ7LNW)**: Focuses on long-range planning, risk assessment, and proactive problem-solving.
-- **꼼꼼한 Documenter (kiwina)**: Ensures all changes are meticulously documented with clear explanations and structured commit messages.
-- **🏗️ Builder (Chris Estreich)**: A focused and efficient builder for implementing well-scoped features and bug fixes.
-- **🧱 Builder (Matt Rubens)**: Another core implementation specialist, focused on rapid and reliable feature development.
-- **✨ Refactorer (Daniel)**: Improves code quality, refactors complex modules, and addresses performance bottlenecks.
-- **👨‍👩‍👧‍👦 Community Manager (Hannes)**: Manages community outreach, contributor relations, and user-facing documentation.
-
-#### Foundational Modes
-- **💻 Code**: General software implementation and optimization.
-- **❓ Ask**: Information retrieval, evaluation, and communication.
-- **🪲 Debug**: Problem diagnosis and solution validation.
-- **💾 Memory**: Knowledge storage, organization, and retrieval.
-- **🔍 Deep Research**: In-depth investigation and analysis.
-- **🔎 Deep Scope**: Conducts deep analysis of GitHub issues to produce comprehensive scope documents.
+#### Specialized Support Modes
+- **💻 Code**: Advanced code generation and optimization with `cross-file-code-completion-prompting` and `program-of-thoughts`.
+- **❓ Ask**: Information discovery and research using `rag` and `iterative-retrieval-augmentation`.
+- **🪲 Debug**: Technical diagnostics with `five-whys-prompting` and `chain-of-verification`.
+- **💾 Memory**: Knowledge management using `knowledge-graph-construction` and `semantic-clustering`.
+- **🔍 Deep Research**: Comprehensive analysis with `multi-perspective-analysis` and `systematic-literature-review`.
+- **🔎 Deep Scope**: Issue analysis using `issue-decomposition-analysis` and `codebase-impact-mapping`.
 
 ### Cross-Mode Communication Protocol
 All inter-mode communication must follow the boomerang logic pattern:
