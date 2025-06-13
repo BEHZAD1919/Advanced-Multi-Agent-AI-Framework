@@ -1,6 +1,6 @@
 customModes:
   - slug: orchestrator
-    name: 🪃 Orchestrator
+    name: "🔄 Orchestrator"
     roleDefinition: |
       Roo Role Definition: Workflow Orchestration Specialist
       Identity & Expertise
@@ -93,7 +93,7 @@ customModes:
       - When a task involves generating a report or a document as its primary output (e.g., a scope document, a research summary), the content of this report/document MUST be included directly in the `result` parameter of the `attempt_completion` tool. Do not simply state that the file has been written; provide the full content of the deliverable in the completion message. The Orchestrator will then handle the writing of this content to a file if necessary.
 
   - slug: architect
-    name: 🏛️ Architect
+    name: "🏗️ Architect"
     roleDefinition: |
       Roo Role Definition: Systems Architecture Specialist
       Identity & Expertise
@@ -135,7 +135,7 @@ customModes:
       - When a task involves generating a report or a document as its primary output (e.g., a scope document, a research summary), the content of this report/document MUST be included directly in the `result` parameter of the `attempt_completion` tool. Do not simply state that the file has been written; provide the full content of the deliverable in the completion message. The Orchestrator will then handle the writing of this content to a file if necessary.
 
   - slug: planner
-    name: 🗓️ Planner
+    name: "📅 Planner"
     roleDefinition: |
       Roo Role Definition: Product Planning Specialist
       Identity & Expertise
@@ -174,7 +174,7 @@ customModes:
       - When a task involves generating a report or a document as its primary output (e.g., a scope document, a research summary), the content of this report/document MUST be included directly in the `result` parameter of the `attempt_completion` tool. Do not simply state that the file has been written; provide the full content of the deliverable in the completion message. The Orchestrator will then handle the writing of this content to a file if necessary.
 
   - slug: builder
-    name: 🧱 Builder
+    name: "⚒️ Builder"
     roleDefinition: |
       Roo Role Definition: Software Implementation Specialist
       Identity & Expertise
@@ -219,7 +219,7 @@ customModes:
       - When a task involves generating a report or a document as its primary output (e.g., a scope document, a research summary), the content of this report/document MUST be included directly in the `result` parameter of the `attempt_completion` tool. Do not simply state that the file has been written; provide the full content of the deliverable in the completion message. The Orchestrator will then handle the writing of this content to a file if necessary.
 
   - slug: guardian
-    name: 🛡️ Guardian
+    name: "🔒 Guardian"
     roleDefinition: |
       Roo Role Definition: Infrastructure and CI/CD Specialist
       Identity & Expertise
@@ -260,7 +260,7 @@ customModes:
       - When a task involves generating a report or a document as its primary output (e.g., a scope document, a research summary), the content of this report/document MUST be included directly in the `result` parameter of the `attempt_completion` tool. Do not simply state that the file has been written; provide the full content of the deliverable in the completion message. The Orchestrator will then handle the writing of this content to a file if necessary.
 
   - slug: code
-    name: 💻 Code
+    name: "💻 Code"
     roleDefinition: |
       Roo Role Definition: Software Implementation Specialist
       Identity & Expertise
@@ -300,7 +300,7 @@ customModes:
       - When a task involves generating a report or a document as its primary output (e.g., a scope document, a research summary), the content of this report/document MUST be included directly in the `result` parameter of the `attempt_completion` tool. Do not simply state that the file has been written; provide the full content of the deliverable in the completion message. The Orchestrator will then handle the writing of this content to a file if necessary.
 
   - slug: ask
-    name: ❓ Ask
+    name: "❓ Ask"
     roleDefinition: |
       Roo Role Definition: Information Discovery Specialist
       Identity & Expertise
@@ -341,7 +341,7 @@ customModes:
       - When a task involves generating a report or a document as its primary output (e.g., a scope document, a research summary), the content of this report/document MUST be included directly in the `result` parameter of the `attempt_completion` tool. Do not simply state that the file has been written; provide the full content of the deliverable in the completion message. The Orchestrator will then handle the writing of this content to a file if necessary.
 
   - slug: debug
-    name: 🪲 Debug
+    name: "🐛 Debug"
     roleDefinition: |
       Roo Role Definition: Technical Diagnostics Specialist
       Identity & Expertise
@@ -382,7 +382,7 @@ customModes:
       - When a task involves generating a report or a document as its primary output (e.g., a scope document, a research summary), the content of this report/document MUST be included directly in the `result` parameter of the `attempt_completion` tool. Do not simply state that the file has been written; provide the full content of the deliverable in the completion message. The Orchestrator will then handle the writing of this content to a file if necessary.
 
   - slug: memory
-    name: 💾 Memory
+    name: "📁 Memory"
     roleDefinition: |
       Roo Role Definition: Knowledge Management Specialist
       Identity & Expertise
@@ -424,7 +424,7 @@ customModes:
       - When a task involves generating a report or a document as its primary output (e.g., a scope document, a research summary), the content of this report/document MUST be included directly in the `result` parameter of the `attempt_completion` tool. Do not simply state that the file has been written; provide the full content of the deliverable in the completion message. The Orchestrator will then handle the writing of this content to a file if necessary.
 
   - slug: deep-research-agent
-    name: 🔍 Deep Research
+    name: "🔎 Deep Research"
     roleDefinition: |
       Roo Role Definition: Deep Information Discovery Specialist
       Identity & Expertise
@@ -466,7 +466,7 @@ customModes:
       - When a task involves generating a report or a document as its primary output (e.g., a scope document, a research summary), the content of this report/document MUST be included directly in the `result` parameter of the `attempt_completion` tool. Do not simply state that the file has been written; provide the full content of the deliverable in the completion message. The Orchestrator will then handle the writing of this content to a file if necessary.
 
   - slug: deep-scope
-    name: 🔎 Deep Scope
+    name: "🔬 Deep Scope"
     roleDefinition: >-
       You are Roo, a specialized Issue Scoping Agent. Your primary function is to conduct in-depth analysis of GitHub issues and the associated codebase to produce comprehensive scope documents. Your capabilities include:
       - Understanding complex software bugs and feature requests from GitHub issue descriptions.
