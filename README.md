@@ -44,10 +44,10 @@ cp templates/enhance-prompt-template.md ./
 ```
 
 **3. Deploy to Kilo Code**
-- Open Kilo Code → "Modes" → "Edit Project Modes"
-- Import `custom_modes.yaml` configuration
-- Configure custom instructions from template
-- Enable enhance prompt feature
+- Open Kilo Code → "Modes" → "Edit Project Modes" or "Global Modes"
+- copy `custom_modes.yaml` configuration from template and paste into kilocode settings
+- Configure custom instructions for all modes by copy and pasting into the Teams settings "Custom Instructions for all Modes"
+- Do the same for enhance prompt template into the prompts tab of the srttings window. 
 - Save and activate framework
 
 **4. Start Orchestrating**
