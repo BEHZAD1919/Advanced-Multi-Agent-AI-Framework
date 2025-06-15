@@ -69,7 +69,7 @@ cp templates/enhance-prompt-template.md ./
 | Mode | Specialization | Advanced Techniques |
 |------|----------------|-------------------|
 | **⚒️ Builder** | Software Development & Testing | `code-generation-agents`, `test-based-iterative-flow` |
-| **💻 Code** | Advanced Coding & Optimization | 'modular-code-generation`, `(https://github.com/chonghin33/lcm-1.13-whitepaper)language-construct-modeling(` |
+| **💻 Code** | Advanced Coding & Optimization | 'modular-code-generation`, `(https://github.com/chonghin33/lcm-1.13-whitepaper)' 'language-construct-modeling` |
 | **🔒 Guardian** | Infrastructure & CI/CD | `automated-development-workflows`, `semantic-guardrails` |
 
 ### Research & Analysis Team
