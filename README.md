@@ -226,7 +226,8 @@ Detailed documentation for each AI specialist:
 - Kilo Code platform development team
 - Advanced prompt engineering research community
 - Framework users providing feedback and improvements
-
+- Vincent Shing Hin Chong for their work into Language Construct Modeling | https://osf.io/q6cyp/
+- 20+ research papers sources listed here: https://mnehmos.github.io/Prompt-Engineering/sources.html
 ---
 
 ## 🎯 Ready to Transform Your AI Development?
